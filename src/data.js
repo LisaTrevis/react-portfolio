@@ -125,6 +125,98 @@ export const people = [
   },
 ];
 
+export const courses = [
+  {
+    id: 1,
+    school: "LinkedIn",
+    classes: [
+      "Installing Apache",
+      "MySQL",
+      "PHP",
+      "Graphic Design",
+      "Logo Design Tips and Tricks",
+      "InDesign: Typography Part 1",
+      "Installing and Running WordPress",
+      "MAMP",
+      "Installing and Running WordPress: Shared Hosting",
+      "Creating a First Website in Dreamweaver CC 2017",
+      "HTML5: Structure, Syntax, and Semantics",
+      "Illustrator for Web Design: Core Concepts",
+      "InDesign Quick Start",
+      "Learning Canva",
+      "Learning the Adobe Creative Cloud",
+      "Photoshop CC 2017 Essential Training: The Basics",
+      "UX Foundations: Prototyping",
+      "jQuery Essential Training",
+      "SEO Foundations",
+      "React Testing & Debugging w/ Jest",
+      "AngularJS",
+    ],
+  },
+  {
+    id: 2,
+    school: "Codify Academy",
+    classes: [
+      "Web Application Engineering",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Bootstrap",
+      "jQuery",
+      "GitHub",
+      "CSS Animation",
+      "Framework Basics (Vue.js, React, AngularJS)",
+      "APIs",
+      "AJAX",
+      "JSON",
+    ],
+  },
+  {
+    id: 3,
+    school: "Udemy",
+    classes: [
+      "Vue",
+      "Angular",
+      "PHP",
+      "Advanced JavaScript",
+      "React with Redux & Hooks",
+      "SVG",
+      "D3.js",
+      "ES6",
+      "Python",
+      "Django",
+    ],
+  },
+  {
+    id: 4,
+    school: "Hack Reactor",
+    classes: ["An intense 4 week prep course with a focus on JavaScript"],
+  },
+  {
+    id: 5,
+    school: "Codecademy",
+    classes: ["HTML", "CSS", "JavaScript", "AngularJS", "ReactJS"],
+  },
+  {
+    id: 6,
+    school: "Normandale",
+    classes: ["AA Degree", "Physics", "Math", "Engineering"],
+  },
+  {
+    id: 7,
+    school: "Index Computers",
+    classes: [
+      "Access",
+      "Excel (including Pivot Tables)",
+      "Power Point",
+      "Word",
+      "Outlook",
+      "Quickbooks",
+    ],
+  },
+];
+
 export const jobs = [
   {
     id: 1,
