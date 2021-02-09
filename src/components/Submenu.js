@@ -32,9 +32,9 @@ const Submenu = () => {
       <h4>{page}</h4>
       <div className={`submenu-center ${columns}`}>
         {links.map((link, index) => {
-          const { label, icon, url } = link;
+          const { label, icon, url, target } = link;
           return (
-            <a href={url} key={index}>
+            <a href={url} target={target} key={index}>
               {icon}
               {label}
             </a>

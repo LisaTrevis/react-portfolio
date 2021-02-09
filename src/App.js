@@ -7,17 +7,20 @@ import Sidebar from "./components/Sidebar";
 import Submenu from "./components/Submenu";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
-import Experience from "./pages/Experience";
-import Recommendations from "./pages/Recommendations";
+import Work from "./pages/Work";
+import Recs from "./pages/Recs";
+import Projects from "./pages/Projects";
+import Daisy from "./pages/Daisy";
+import Nessa from "./pages/Nessa";
 
 import Error from "./pages/Error";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Sidebar />
       <Router>
+        <Navbar />
+        <Sidebar />
         <Switch>
           <Route exact path="/">
             <div className="hero-page">
@@ -34,22 +37,37 @@ function App() {
               <Education />
             </div>
           </Route>
-          <Route path="/experience">
-            <div className="experience-page">
-              <Experience />
+          <Route path="/work">
+            <div className="work-page">
+              <Work />
             </div>
           </Route>
-          <Route path="/recommendations">
-            <div className="recommendations-page">
-              <Recommendations />
+          <Route path="/recs">
+            <div className="recs-page">
+              <Recs />
+            </div>
+          </Route>
+          <Route path="/projects">
+            <div className="projects-page">
+              <Projects />
+            </div>
+          </Route>
+          <Route path="/daisy">
+            <div className="daisy-page">
+              <Daisy />
+            </div>
+          </Route>
+          <Route path="/nessa">
+            <div className="nessa-page">
+              <Nessa />
             </div>
           </Route>
           <Route path="*">
             <Error />
           </Route>
         </Switch>
+        <Submenu />
       </Router>
-      <Submenu />
     </div>
   );
 }

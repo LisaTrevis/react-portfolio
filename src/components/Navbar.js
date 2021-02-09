@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBars, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 import { useGlobalContext } from "../context";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
@@ -22,7 +23,9 @@ const Navbar = () => {
     <nav className="nav" onMouseOver={handleSubmenu}>
       <div className="nav-center">
         <div className="nav-header">
-          <h2>Lisa Trevis</h2>
+          <Link to="/">
+            <h2>Lisa Trevis</h2>
+          </Link>
           <button className="btn toggle-btn" onClick={openSidebar}>
             <FaBars />
           </button>
