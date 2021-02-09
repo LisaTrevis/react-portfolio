@@ -1,0 +1,72 @@
+import React from "react";
+import { FaBars, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { useGlobalContext } from "../context";
+
+const Navbar = () => {
+  const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
+
+  const displaySubmenu = (e) => {
+    const page = e.target.textContent;
+    const tempBtn = e.target.getBoundingClientRect();
+    const center = (tempBtn.left + tempBtn.right) / 2;
+    const bottom = tempBtn.bottom - 3;
+    openSubmenu(page, { center, bottom });
+  };
+
+  const handleSubmenu = (e) => {
+    if (!e.target.classList.contains("link-btn")) {
+      closeSubmenu();
+    }
+  };
+  return (
+    <nav className="nav" onMouseOver={handleSubmenu}>
+      <div className="nav-center">
+        <div className="nav-header">
+          <h2>Lisa Trevis</h2>
+          <button className="btn toggle-btn" onClick={openSidebar}>
+            <FaBars />
+          </button>
+        </div>
+        <ul className="nav-links">
+          <li>
+            <button className="link-btn" onMouseOver={displaySubmenu}>
+              About me
+            </button>
+          </li>
+          <li>
+            <button className="link-btn" onMouseOver={displaySubmenu}>
+              Projects
+            </button>
+          </li>
+          <li>
+            <button className="link-btn" onMouseOver={displaySubmenu}>
+              Pets
+            </button>
+          </li>
+        </ul>
+        <ul className="social-container">
+          <li className="social-item">
+            <a
+              className="social-link"
+              href="https://www.linkedin.com/in/lisatrevis/"
+            >
+              <FaLinkedin />
+            </a>
+          </li>
+          <li className="social-item">
+            <a className="social-link" href="https://github.com/LisaTrevis">
+              <FaGithub />
+            </a>
+          </li>
+          <li className="social-item">
+            <a className="social-link" href="https://codepen.io/LisaTrevis/">
+              <FaCodepen />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
