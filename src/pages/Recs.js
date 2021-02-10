@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { people } from "../data";
+import { useGlobalContext } from "../context";
+
 const Recs = () => {
+  const { closeSubmenu } = useGlobalContext();
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -21,7 +24,7 @@ const Recs = () => {
     return () => clearInterval(slider);
   }, [index]);
   return (
-    <section className="section">
+    <section className="section" onMouseOver={closeSubmenu}>
       <div className="section-name">
         <h2>Recommendations</h2>
       </div>

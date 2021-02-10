@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { jobs } from "../data";
+import { useGlobalContext } from "../context";
 
 const Work = () => {
+  const { closeSubmenu } = useGlobalContext();
   const [value, setValue] = useState(0);
 
   const { title, company, dates, duties } = jobs[value];
   return (
     <div>
-      <section className="work-section">
+      <section className="work-section" onMouseOver={closeSubmenu}>
         <h2 className="title">Experience</h2>
         <div className="center">
           <div className="btn-container">

@@ -267,4 +267,29 @@ export const jobs = [
   },
 ];
 
+export const skillList = [
+  {
+    id: 1,
+    type: "Primary",
+    desc: "I'm proficient with these and can hit the ground running.",
+    skillset:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus repudiandae voluptatum tempora debitis veniam placeat aliquam iste. Deserunt, non error? Quam, fuga! Delectus, dolor. Rem, cum eum voluptatem animi voluptates velit! Voluptate maxime, dolorem delectus explicabo repudiandae quos labore.",
+  },
+  {
+    id: 2,
+    type: "Secondary",
+    desc:
+      "I've used these before in projects and tutorials and can be proficient with minimal ramp up time.",
+    skillset:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus repudiandae voluptatum tempora debitis veniam placeat aliquam iste. Deserunt, non error? Quam, fuga! Delectus, dolor. Rem, cum eum voluptatem animi voluptates velit! Voluptate maxime, dolorem delectus explicabo repudiandae quos labore.",
+  },
+  {
+    id: 3,
+    type: "Tertiary",
+    desc:
+      "I've had exposure to these via tutorials and understand where they fit into tech ecosystems.",
+    skillset:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus repudiandae voluptatum tempora debitis veniam placeat aliquam iste. Deserunt, non error? Quam, fuga! Delectus, dolor. Rem, cum eum voluptatem animi voluptates velit! Voluptate maxime, dolorem delectus explicabo repudiandae quos labore.",
+  },
+];
 export default sublinks;

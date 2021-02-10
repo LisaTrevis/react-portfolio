@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { courses } from "../data";
+import { useGlobalContext } from "../context";
 
 const Courses = () => {
+  const { closeSubmenu } = useGlobalContext();
   const [value, setValue] = useState(0);
-
   const { school, classes } = courses[value];
+
   return (
     <div>
-      <section className="edu-section">
+      <section className="edu-section" onMouseOver={closeSubmenu}>
         <h2 className="title">Education</h2>
         <div className="center">
           <div className="btn-container">
