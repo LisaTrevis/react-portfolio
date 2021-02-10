@@ -54,13 +54,13 @@ export const sublinks = [
         target: "_blank",
       },
       {
-        label: "Checkout Cart Hooks",
+        label: "Cart (Hooks)",
         icon: <FaFolderOpen />,
         url: "https://lisa-trevis-react-checkout-cart-v1.netlify.app",
         target: "_blank",
       },
       {
-        label: "Checkout Cart Redux",
+        label: "Cart (Redux)",
         icon: <FaFolderOpen />,
         url: "https://lisa-trevis-react-checkout-cart-v2.netlify.app",
         target: "_blank",
@@ -271,25 +271,66 @@ export const skillList = [
   {
     id: 1,
     type: "Primary",
-    desc: "I'm proficient with these and can hit the ground running.",
     skillset:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus repudiandae voluptatum tempora debitis veniam placeat aliquam iste. Deserunt, non error? Quam, fuga! Delectus, dolor. Rem, cum eum voluptatem animi voluptates velit! Voluptate maxime, dolorem delectus explicabo repudiandae quos labore.",
+      "HTML5, CSS3, JavaScript, React, React Hooks, CI/CD, Responsive Design, GitHub, APIs, Babel, Webpack, NPM, UI / UX, Figma, Jira, Confluence, ES6 (arrow functions, rest/spread operators, destructuring, template strings, let/const, array methods, etc.), Canva, Contentful, Excel, Word, Outlook.",
   },
   {
     id: 2,
     type: "Secondary",
-    desc:
-      "I've used these before in projects and tutorials and can be proficient with minimal ramp up time.",
     skillset:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus repudiandae voluptatum tempora debitis veniam placeat aliquam iste. Deserunt, non error? Quam, fuga! Delectus, dolor. Rem, cum eum voluptatem animi voluptates velit! Voluptate maxime, dolorem delectus explicabo repudiandae quos labore.",
+      "Python, Vue, Flutter / Dart, Redux, Bootstrap, jQuery, SEO, AJAX, PHP, Accessability, MySQL / SQL, Prototyping, Wireframing, Testing and Debugging with Jest, Access, Power Point.",
   },
   {
     id: 3,
     type: "Tertiary",
-    desc:
-      "I've had exposure to these via tutorials and understand where they fit into tech ecosystems.",
     skillset:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus repudiandae voluptatum tempora debitis veniam placeat aliquam iste. Deserunt, non error? Quam, fuga! Delectus, dolor. Rem, cum eum voluptatem animi voluptates velit! Voluptate maxime, dolorem delectus explicabo repudiandae quos labore.",
+      "AngularJS, Swift, D3, Django, Docker, Adobe Photoshop, Adobe Dreamweaver, Adobe InDesign, Adobe Illustrator, Wordpress, Apache, MAMP, QuickBooks.",
   },
 ];
+
+// export const projects = [
+//   {
+//     id: 1,
+//     name: "Home Bartender",
+//     url: "https://lisa-trevis-react-home-bartender.netlify.app",
+//     image: "",
+//   },
+//   {
+//     id: 2,
+//     name: "",
+//     url: "",
+//     image: "",
+//   },
+//   {
+//     id: 3,
+//     name: "",
+//     url: "",
+//     image: "",
+//   },
+//   {
+//     id: 4,
+//     name: "",
+//     url: "",
+//     image: "",
+//   },
+//   {
+//     id: 5,
+//     name: "",
+//     url: "",
+//     image: "",
+//   },
+//   {
+//     id: 6,
+//     name: "",
+//     url: "",
+//     image: "",
+//   },
+//   {
+//     id: 7,
+//     name: "",
+//     url: "",
+//     image: "",
+//   },
+// ];
+
 export default sublinks;

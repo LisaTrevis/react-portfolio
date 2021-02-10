@@ -348,11 +348,6 @@ Sidebar
 .sidebar article {
   margin-bottom: 2rem;
 }
-.sidebar-sublinks {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 0.25rem;
-}
 .sidebar-sublinks a {
   display: block;
   color: var(--clr-gray);
@@ -361,10 +356,17 @@ Sidebar
   align-items: center;
 }
 .sidebar-sublinks svg {
-  color: var(--clr-gray);
+  color: var(--clr-brand-dark);
   margin-right: 1rem;
 }
 /* sidebar media query */
+@media screen and (min-width: 450px) {
+  .sidebar-sublinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0.25rem;
+  }
+}
 @media screen and (min-width: 800px) {
   .sidebar-wrapper {
     display: none;
@@ -433,7 +435,7 @@ Submenu
   align-items: center;
 }
 .submenu-center svg {
-  color: var(--clr-gray);
+  color: var(--clr-brand-dark);
   margin-right: 1rem;
 }
 
@@ -782,8 +784,14 @@ Skills
 ======
 */
 
-.skills-section {
+/* .skills-section {
   margin: 1rem;
+} */
+.skill-container {
+  min-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .skills-section h2 {
   text-align: center;
@@ -792,12 +800,13 @@ Skills
 }
 .card {
   padding: 1rem 1.5rem;
+  min-width: 80vw;
   background: var(--clr-brand-light);
   border: 2px solid var(--clr-brand-dark);
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
   border-radius: var(--radius);
   box-shadow: var(--dark-shadow);
-  max-width: 900px;
+  max-width: 80vw;
 }
 .skill-header {
   text-align: center;
@@ -824,11 +833,14 @@ Skills
   margin-top: 0.5rem;
 }
 
-@media screen and (max-width: 900px) {
-}
+/*
+========
+Projects
+========
+*/
 
 /* background image resize */
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 1020px) {
   body {
     background-image: url("./images/pastel_background_wide.jpg");
   }
