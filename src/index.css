@@ -9,6 +9,7 @@ Variables
   --clr-gray: rgb(88, 88, 88);
   --clr-brand-dark: rgb(65, 160, 178);
   --clr-brand-light: rgb(205, 241, 248);
+  --clr-light-purple: rgb(205, 123, 247);
   --clr-black: #222;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
@@ -16,7 +17,6 @@ Variables
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
-  --fixed-width: 620px;
 }
 
 /*
@@ -729,7 +729,7 @@ Courses
 .courses-info h3 {
   font-weight: 400;
   font-size: 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .courses-desc {
@@ -838,6 +838,57 @@ Skills
 Projects
 ========
 */
+
+.project-list {
+  text-align: center;
+}
+
+.project-list h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.projects-center {
+  margin: 0;
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card {
+  background: var(--clr-white);
+  margin: 1rem;
+  text-align: center;
+  border-radius: var(--radius);
+}
+
+.proj-img-cont {
+  padding: 10px;
+  border-radius: var(--radius);
+}
+
+.proj-img-cont img {
+  width: 150px;
+  height: 100px;
+}
+
+.proj-card-footer {
+  padding: 5px;
+}
+
+.proj-card-footer:hover {
+  background: var(--clr-light-purple);
+  transition: var(--transition);
+}
+
+@media screen and (min-width: 672px) {
+  .proj-img-cont img {
+    width: 250px;
+    height: 200px;
+  }
+}
 
 /* background image resize */
 @media screen and (min-width: 1020px) {

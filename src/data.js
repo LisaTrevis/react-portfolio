@@ -15,6 +15,16 @@ import Tamara from "./images/Tamara.png";
 import Melissa from "./images/Melissa.jpeg";
 import Carmen from "./images/Carmen.png";
 
+import Cart_Hooks from "./images/Cart_Hooks.png";
+import Delivery_Decider from "./images/Delivery_Decider.png";
+import Dog_Walker from "./images/Dog_Walker.png";
+import Gas_Pump from "./images/Gas_Pump.png";
+import Home_Bartender from "./images/Home_Bartender.png";
+import Menu from "./images/Menu.png";
+import Dog_Breeds from "./images/Dog_Breeds.png";
+import Shopping_List from "./images/Shopping_List.png";
+import Tints_Shades from "./images/Tints_Shades.png";
+
 export const sublinks = [
   {
     page: "About me",
@@ -50,25 +60,37 @@ export const sublinks = [
       {
         label: "Tints & Shades",
         icon: <FaFolderOpen />,
-        url: "https://lisa-trevis-react-tints-and-shades.netlify.app/",
+        url: "https://lisa-trevis-react-tints-and-shades.netlify.app",
         target: "_blank",
       },
       {
-        label: "Cart (Hooks)",
+        label: "Checkout Cart",
         icon: <FaFolderOpen />,
         url: "https://lisa-trevis-react-checkout-cart-v1.netlify.app",
         target: "_blank",
       },
       {
-        label: "Cart (Redux)",
+        label: "Dog Walker",
         icon: <FaFolderOpen />,
-        url: "https://lisa-trevis-react-checkout-cart-v2.netlify.app",
+        url: "https://lisa-trevis-react-dog-walker-reviews.netlify.app",
         target: "_blank",
       },
       {
         label: "Gas Pump",
         icon: <FaFolderOpen />,
-        url: "https://lisa-trevis-react-gas-pump.netlify.app/",
+        url: "https://lisa-trevis-react-gas-pump.netlify.app",
+        target: "_blank",
+      },
+      {
+        label: "Dog Reviews",
+        icon: <FaFolderOpen />,
+        url: "https://lisa-trevis-react-dog-walker-reviews.netlify.app",
+        target: "_blank",
+      },
+      {
+        label: "Menu",
+        icon: <FaFolderOpen />,
+        url: "https://lisa-trevis-react-basic-menu.netlify.app/",
         target: "_blank",
       },
     ],
@@ -288,49 +310,61 @@ export const skillList = [
   },
 ];
 
-// export const projects = [
-//   {
-//     id: 1,
-//     name: "Home Bartender",
-//     url: "https://lisa-trevis-react-home-bartender.netlify.app",
-//     image: "",
-//   },
-//   {
-//     id: 2,
-//     name: "",
-//     url: "",
-//     image: "",
-//   },
-//   {
-//     id: 3,
-//     name: "",
-//     url: "",
-//     image: "",
-//   },
-//   {
-//     id: 4,
-//     name: "",
-//     url: "",
-//     image: "",
-//   },
-//   {
-//     id: 5,
-//     name: "",
-//     url: "",
-//     image: "",
-//   },
-//   {
-//     id: 6,
-//     name: "",
-//     url: "",
-//     image: "",
-//   },
-//   {
-//     id: 7,
-//     name: "",
-//     url: "",
-//     image: "",
-//   },
-// ];
+export const projects = [
+  {
+    id: 1,
+    name: "Home Bartender",
+    url: "https://lisa-trevis-react-home-bartender.netlify.app",
+    image: Home_Bartender,
+  },
+  {
+    id: 2,
+    name: "Shopping List",
+    url: "https://lisa-trevis-react-shopping-list.netlify.app",
+    image: Shopping_List,
+  },
+  {
+    id: 3,
+    name: "Gas Pump",
+    url: "https://lisa-trevis-react-gas-pump.netlify.app",
+    image: Gas_Pump,
+  },
+  {
+    id: 4,
+    name: "Delivery Decider",
+    url: "https://lisa-trevis-react-basic-delivery-decider.netlify.app",
+    image: Delivery_Decider,
+  },
+  {
+    id: 5,
+    name: "Tints & Shades",
+    url: "https://lisa-trevis-react-tints-and-shades.netlify.app",
+    image: Tints_Shades,
+  },
+  {
+    id: 6,
+    name: "Cart (Hooks)",
+    url: "https://lisa-trevis-react-checkout-cart-v1.netlify.app",
+    image: Cart_Hooks,
+  },
+  {
+    id: 7,
+    name: "Dog Breeds",
+    url: "https://lisa-trevis-react-dog-breed-accordion.netlify.app",
+    image: Dog_Breeds,
+  },
+  {
+    id: 8,
+    name: "Menu",
+    url: "https://lisa-trevis-react-basic-menu.netlify.app",
+    image: Menu,
+  },
+  {
+    id: 9,
+    name: "Dog Walker",
+    url: "https://lisa-trevis-react-dog-walker-reviews.netlify.app",
+    image: Dog_Walker,
+  },
+];
 
 export default sublinks;
