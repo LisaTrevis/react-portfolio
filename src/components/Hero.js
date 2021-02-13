@@ -1,5 +1,5 @@
 import React from "react";
-import headShot from "../images/2021_Profile.jpg";
+import headShot from "../images/Headshot.jpg";
 import { useGlobalContext } from "../context";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 

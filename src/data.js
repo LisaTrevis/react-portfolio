@@ -203,7 +203,7 @@ export const courses = [
       "PHP",
       "Advanced JavaScript",
       "React with Redux & Hooks",
-      "SVG",
+      "SVGs",
       "D3.js",
       "ES6",
       "Python",
