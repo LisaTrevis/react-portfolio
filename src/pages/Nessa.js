@@ -18,10 +18,12 @@ const Nessa = () => {
       </div>
       <p>
         I adopted Nessa through{" "}
-        <a href="https://www.mwcr.org">Minnesota Wisconsin Collie Rescue</a> in
-        July of 2011. She had spent her first few years of life in a kennel as
-        part of a puppy mill operation. When the man running the mill decided to
-        close it down, MWCR stepped up and found homes for all of the dogs.
+        <a href="https://www.mwcr.org" rel="noreferrer" target="_blank">
+          Minnesota Wisconsin Collie Rescue
+        </a>{" "}
+        in July of 2011. She had spent her first few years of life in a kennel
+        as part of a puppy mill operation. When the man running the mill decided
+        to close it down, MWCR stepped up and found homes for all of the dogs.
       </p>
       <p>
         Because of her background, it took Nessa quite a few years to learn how
@@ -29,10 +31,9 @@ const Nessa = () => {
         her kind, sweet, and gentle personality.
       </p>
       <p>
-        In her younger days, Nessa loved to let out her squeaky bark at anyone
-        passing by as well as crows who were brave enough to visit our yard.
-        Nowadays, she spends most of her time napping with only a warning bark
-        for the cheeky crows.
+        In her younger days, Nessa loved to chase away any crows who were brave
+        enough to visit our yard. Nowadays, she spends most of her time napping
+        with only a warning bark for those cheeky crows.
       </p>
     </div>
   );

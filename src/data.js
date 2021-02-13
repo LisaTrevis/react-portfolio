@@ -96,7 +96,7 @@ export const sublinks = [
     ],
   },
   {
-    page: "Dogs",
+    page: "Pets",
     links: [
       { label: "Daisy", icon: <FaPaw />, url: "/daisy" },
       { label: "Nessa", icon: <FaPaw />, url: "/nessa" },

@@ -41,7 +41,8 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-image: url("./images/pastel_background_long.jpg");
-  background-size: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
   color: var(--clr-dark-text);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -128,7 +129,6 @@ Navbar
   justify-content: center;
   background: transparent;
   position: relative;
-  /* z-index: 1; */
   border-bottom: 2px solid var(--clr-gray-text);
 }
 .nav-center {
@@ -140,13 +140,9 @@ Navbar
   justify-content: space-between;
   align-items: center;
 }
-.nav-header h2 {
-  color: var(--clr-gray-text);
-  margin-top: 1rem;
-}
-.nav-header h2:hover {
-  color: var(--clr-brand-dark);
-  transition: var(--transition);
+.nav-logo img {
+  width: 90%;
+  padding-top: 10px;
 }
 .btn {
   font-size: 1rem;
@@ -252,9 +248,21 @@ Hero
 }
 
 .hero .footer {
+  font-size: 8px;
   text-align: center;
+  padding-bottom: 0.25rem;
 }
-
+.hero .footer p {
+  line-height: 0.5;
+}
+.pixel p {
+  display: inline;
+  margin-right: 5px;
+}
+.pixel .icon {
+  margin-right: 5px;
+  color: var(--clr-brand-dark);
+}
 /* hero media queries */
 @media screen and (min-width: 450px) {
   .hero-info {
@@ -264,6 +272,9 @@ Hero
     font-size: 1.5rem;
     max-width: 90%;
     margin: 0 auto;
+  }
+  .hero .footer {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -918,7 +929,7 @@ Daisy
 }
 
 /* background image resize */
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 942px) {
   body {
     background-image: url("./images/pastel_background_wide.jpg");
     height: 100vh;
