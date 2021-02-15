@@ -1,5 +1,5 @@
 import React from "react";
-import headShot from "../images/Headshot.jpg";
+import headShot from "../images/Headshot.png";
 import { useGlobalContext } from "../context";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -16,11 +16,10 @@ const Hero = () => {
         </article>
         <article className="hero-info">
           <p>
-            solution driven problem solver, figure out a solution independently,
-            flexibile, adaptable, good communicator, team player, leader AND
-            follower, learner and mentor, strong work ethic, fun to work with,
-            respectful of deadlines, innovative, multiple ways to solve
-            problems, honest, flexbox
+            Solution driven problem solver. Loves learning and teaching equally.
+            Strong work ethic with an honest and friendly communication style.
+            Creative and innovative team player. Flexible roup leader respectful
+            of deadlines, flexible, and
           </p>
         </article>
       </div>

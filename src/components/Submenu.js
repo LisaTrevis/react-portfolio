@@ -5,7 +5,7 @@ const Submenu = () => {
   const {
     isSubmenuOpen,
     location,
-    page: { page, links },
+    page: { links },
   } = useGlobalContext();
 
   const container = useRef(null);
@@ -20,8 +20,11 @@ const Submenu = () => {
     if (links.length === 3) {
       setColumns("col-3");
     }
-    if (links.length > 3) {
-      setColumns("col-4");
+    if (links.length === 9) {
+      setColumns("col-3");
+    }
+    if (links.length === 4) {
+      setColumns("col-2");
     }
   }, [location, links]);
   return (
@@ -29,18 +32,19 @@ const Submenu = () => {
       className={`${isSubmenuOpen ? "submenu show" : "submenu"}`}
       ref={container}
     >
-      <h4>{page}</h4>
-      <div className={`submenu-center ${columns}`}>
+      <ul className={`submenu-center ${columns}`}>
         {links.map((link, index) => {
           const { label, icon, url, target } = link;
           return (
-            <a href={url} target={target} key={index}>
-              {icon}
-              {label}
-            </a>
+            <li key={index}>
+              <a href={url} target={target}>
+                {icon}
+                {label}
+              </a>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </aside>
   );
 };

@@ -8,6 +8,7 @@ Variables
   --clr-white: rgb(246, 249, 250);
   --clr-dark-text: #292f36;
   --clr-gray-text: rgb(88, 88, 88);
+  --clr-light-gray: rgb(241, 243, 243);
   --clr-brand-dark: rgb(65, 160, 178);
   --clr-brand-light: rgb(205, 241, 248);
   --clr-dark-purple: rgb(176, 37, 245);
@@ -160,10 +161,20 @@ Navbar
 }
 .link-btn:hover {
   color: var(--clr-brand-dark);
-  transition: var(--transition-slow);
+  /* transition: var(--transition-slow); */
 }
 .nav-links {
   display: none;
+}
+.nav-links li {
+  border-right: 1px solid var(--clr-brand-dark);
+}
+.nav-links button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+.nav-links li:first-child {
+  border-left: 1px solid var(--clr-brand-dark);
 }
 
 /* nav media query */
@@ -280,11 +291,10 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .hero-center {
     max-width: 80vw;
-    margin: 4rem auto;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
@@ -404,7 +414,6 @@ Submenu
   display: none;
   padding: 2rem;
   border-radius: var(--radius);
-  transition: var(--transition-slow);
 }
 .submenu::before {
   content: "";
@@ -514,7 +523,7 @@ Slider
 }
 .recs-center article h4 {
   text-transform: uppercase;
-  color: var(--clr-brand-dark);
+  color: var(--clr-dark-text);
   margin-bottom: 0.25rem;
 }
 .recs-center .text {
@@ -522,7 +531,7 @@ Slider
   margin: 0 auto;
   margin-top: 2rem;
   line-height: 2;
-  color: var(--clr-brand-dark);
+  color: var(--clr-dark-text);
 }
 .recs-center .icon {
   font-size: 3rem;
@@ -561,7 +570,7 @@ Slider
 /* recs media queries */
 @media screen and (min-width: 800px) {
   .section-name h2 {
-    font-size: 1.75rem;
+    font-size: 3rem;
   }
   .recs-center .text {
     max-width: 45em;
@@ -618,11 +627,11 @@ Jobs
 }
 .work-section .job-btn {
   background: transparent;
-  border-color: transparent;
+  border: 2px solid var(--clr-brand-light);
   color: var(--clr-brand-dark);
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: var(--spacing);
-  margin: 0 0.5rem;
+  margin: 0.25rem 0.5rem;
   transition: var(--transition-fast);
   cursor: pointer;
   padding: 0.25rem;
@@ -630,10 +639,11 @@ Jobs
   outline-color: var(--clr-brand-dark);
 }
 .work-section .job-btn:hover {
-  box-shadow: -5px 0 var(--clr-brand-dark);
+  box-shadow: 0 5px var(--clr-brand-dark);
 }
 .work-section .active-btn {
-  background: white;
+  background: var(--clr-brand-dark);
+  color: var(--clr-white);
 }
 .job-info h3 {
   font-weight: 400;
@@ -663,22 +673,12 @@ Jobs
 
 /* jobs media queries */
 @media screen and (min-width: 992px) {
-  .work-section .center {
-    width: 90vw;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    column-gap: 4rem;
-  }
-  .work-section .btn-container {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
   .job-btn {
     margin-bottom: 1rem;
   }
   .work-section .active-btn {
-    background: white;
-    outline-color: var(--clr-brand-dark);
+    background: var(--clr-brand-dark);
+    color: var(--clr-white);
   }
   .job-btn:hover {
     box-shadow: -5px 0 var(--clr-brand-dark);
@@ -747,18 +747,8 @@ Courses
 
 /* courses media queries */
 @media screen and (min-width: 992px) {
-  .edu-section .center {
-    width: 90vw;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    column-gap: 4rem;
-  }
-  .edu-section .btn-container {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
   .edu-section .courses-btn:hover {
-    box-shadow: -5px 0 var(--clr-brand-dark);
+    box-shadow: 0 5px var(--clr-brand-dark);
   }
   .courses-btn {
     margin-bottom: 1rem;
@@ -770,6 +760,10 @@ Courses
   }
   .courses-btn:hover {
     box-shadow: -5px 0 var(--clr-brand-dark);
+  }
+  .courses-container {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }
 
@@ -796,7 +790,7 @@ Skills
 .card {
   padding: 1rem 1.5rem;
   min-width: 80vw;
-  background: var(--clr-brand-light);
+  background: var(--clr-light-gray);
   border: 2px solid var(--clr-brand-dark);
   margin: 0 auto 1rem;
   border-radius: var(--radius);
@@ -881,6 +875,17 @@ Projects
   .proj-card-footer {
     font-size: 2rem;
   }
+}
+
+/*
+====
+Pets
+====
+*/
+
+.pet-container h2 {
+  text-align: center;
+  margin: 1rem auto;
 }
 
 /*

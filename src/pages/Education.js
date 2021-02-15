@@ -28,16 +28,18 @@ const Courses = () => {
           </div>
           <article className="courses-info">
             <h3>{school}</h3>
-            {classes.map((singleClass, index) => {
-              return (
-                <div key={index} className="courses-desc">
-                  <p>
-                    <FaStar className="courses-icon"></FaStar>
-                    {singleClass}
-                  </p>
-                </div>
-              );
-            })}
+            <div className="courses-container">
+              {classes.map((singleClass, index) => {
+                return (
+                  <div key={index} className="courses-desc">
+                    <p>
+                      <FaStar className="courses-icon"></FaStar>
+                      {singleClass}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
           </article>
         </div>
       </section>
