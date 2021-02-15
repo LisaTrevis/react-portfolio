@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  FaListAlt,
   FaFolderOpen,
   FaCode,
   FaGraduationCap,
@@ -27,7 +26,7 @@ import Tints_Shades from "./images/Tints_Shades.png";
 
 export const sublinks = [
   {
-    page: "About me",
+    page: "About",
     links: [
       { label: "Skills", icon: <FaCode />, url: "/skills" },
       { label: "Education", icon: <FaGraduationCap />, url: "/education" },
@@ -38,7 +37,6 @@ export const sublinks = [
   {
     page: "Projects",
     links: [
-      { label: "Overview", icon: <FaListAlt />, url: "/Projects" },
       {
         label: "Home Bartender",
         icon: <FaFolderOpen />,

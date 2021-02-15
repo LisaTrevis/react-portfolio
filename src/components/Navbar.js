@@ -35,19 +35,33 @@ const Navbar = () => {
         </div>
         <ul className="nav-links">
           <li>
-            <button className="link-btn" onMouseOver={displaySubmenu}>
-              About me
-            </button>
+            <Link to="/about">
+              <button className="link-btn" onMouseOver={displaySubmenu}>
+                About
+              </button>
+            </Link>
           </li>
           <li>
-            <button className="link-btn" onMouseOver={displaySubmenu}>
-              Projects
-            </button>
+            <Link to="/projects">
+              <button
+                className="link-btn"
+                onFocus={displaySubmenu}
+                onMouseOver={displaySubmenu}
+              >
+                Projects
+              </button>
+            </Link>
           </li>
           <li>
-            <button className="link-btn" onMouseOver={displaySubmenu}>
-              Pets
-            </button>
+            <Link to="/pets">
+              <button
+                className="link-btn"
+                onFocus={displaySubmenu}
+                onMouseOver={displaySubmenu}
+              >
+                Pets
+              </button>
+            </Link>
           </li>
         </ul>
         <ul className="social-container">
