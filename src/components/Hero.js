@@ -14,21 +14,15 @@ const Hero = () => {
         <article className="hero-info">
           <div className="hero-tagline">
             <FaAngleRight className="hero-icon" />
-            <h2>
-              Web <span>Developer</span>
-            </h2>
+            <h2>Web Developer</h2>
           </div>
           <div className="hero-tagline">
             <FaAngleRight className="hero-icon" />
-            <h2>
-              Problem <span>Solver</span>
-            </h2>
+            <h2>Problem Solver</h2>
           </div>
           <div className="hero-tagline">
             <FaAngleRight className="hero-icon" />
-            <h2>
-              Creative <span>Designer</span>
-            </h2>
+            <h2>UI/UX Designer</h2>
           </div>
         </article>
       </div>
