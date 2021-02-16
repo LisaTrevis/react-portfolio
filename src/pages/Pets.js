@@ -15,7 +15,7 @@ const Pets = () => {
           <div className="img-container">
             <img src={Nessa_Closeup} alt="Nessa" />
           </div>
-          <h3>Nessa is a 14 year old Smooth Coated Collie.</h3>
+          <h3>Nessa is a fourteen year old Smooth Coated Collie.</h3>
           <Link to="/nessa">
             <button className="btn">Learn more</button>
           </Link>
@@ -24,7 +24,7 @@ const Pets = () => {
           <div className="img-container">
             <img src={Daisy_Lap} alt="" />
           </div>
-          <h3>Daisy is a 2 year old Pittie mix.</h3>
+          <h3>Daisy is a two year old American Pit Bull Terrier.</h3>
           <Link to="/daisy">
             <button className="btn">Learn more</button>
           </Link>

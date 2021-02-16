@@ -128,22 +128,28 @@ Navbar
   min-height: 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background: transparent;
   position: relative;
-  border-bottom: 2px solid var(--clr-gray-text);
+  box-shadow: var(--light-shadow);
 }
 .nav-center {
   width: 90vw;
   max-width: var(--max-width);
 }
 .nav-header {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
+.nav-logo {
+  width: 80%;
+  height: 80%;
+}
 .nav-logo img {
-  width: 90%;
+  width: 100%;
   padding-top: 10px;
 }
 .btn {
@@ -161,7 +167,6 @@ Navbar
 }
 .link-btn:hover {
   color: var(--clr-brand-dark);
-  /* transition: var(--transition-slow); */
 }
 .nav-links {
   display: none;
@@ -171,7 +176,8 @@ Navbar
 }
 .nav-links button:hover {
   cursor: pointer;
-  background-color: lightgray;
+  background-color: var(--clr-white);
+  font-weight: bold;
 }
 .nav-links li:first-child {
   border-left: 1px solid var(--clr-brand-dark);
@@ -181,8 +187,10 @@ Navbar
 
 @media screen and (min-width: 800px) {
   .nav-center {
+    width: 100vw;
+    padding-left: 2rem;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
   }
   .toggle-btn {
@@ -225,17 +233,13 @@ Hero
 .hero {
   height: 100vh;
 }
-.hero .section-title {
-  text-align: center;
-  padding: 1.5rem 0 1rem;
-  margin: 0;
-}
 .hero-center {
   box-shadow: var(--dark-shadow);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  margin-top: 1rem;
 }
 .hero-image {
   padding-top: 1rem;
@@ -325,24 +329,13 @@ Hero
     align-items: center;
     grid-template-columns: 1fr 2fr;
     row-gap: 0.5rem;
+    margin-top: 3rem;
   }
   .hero-tagline h2 {
-    font-size: 2rem;
-    line-height: 1.5;
-  }
-}
-/* @media screen and (min-width: 900px) {
-  .hero-info {
-    padding: 1rem 0;
-  }
-  .hero-tagline h2 {
-    font-size: 2.45rem;
+    font-size: 2.5rem;
     line-height: 1.75;
   }
-  .hero-tagline .hero-icon {
-    font-size: 3rem;
-  }
-} */
+}
 
 /*
 =======
@@ -854,7 +847,9 @@ Projects
 }
 .project-list h2 {
   text-align: center;
-  margin: 2rem;
+  font-size: 3rem;
+  margin: 1.5rem;
+  color: var(--clr-brand-dark);
 }
 .projects-center {
   margin: 0;
@@ -863,6 +858,7 @@ Projects
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--dark-shadow);
 }
 .project-card {
   background: var(--clr-white);
@@ -906,9 +902,58 @@ Pets
 
 .pet-container h2 {
   text-align: center;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
+  font-size: 3rem;
+  color: var(--clr-brand-dark);
 }
-
+.pet-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pet-card {
+  box-shadow: var(--dark-shadow);
+  margin-bottom: 2rem;
+  background-color: var(--clr-white);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pet-card img {
+  width: 100%;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: var(--radius);
+}
+.pet-card h3 {
+  padding: 0 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+.pet-card button {
+  margin-bottom: 1rem;
+  padding: 10px;
+  background-color: var(--clr-brand-dark);
+}
+.pet-card button:hover {
+  background-color: var(--clr-brand-light);
+  color: var(--clr-black);
+}
+@media screen and (min-width: 800px) {
+  .pet-center {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    align-items: flex-start;
+  }
+  .pet-card img {
+    height: 500px;
+    object-fit: cover;
+  }
+}
 /*
 =====
 Nessa
