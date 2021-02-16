@@ -20,7 +20,7 @@ const Recs = () => {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 3000);
+    }, 8000);
     return () => clearInterval(slider);
   }, [index]);
   return (

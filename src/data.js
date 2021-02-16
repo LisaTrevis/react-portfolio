@@ -125,7 +125,7 @@ export const people = [
     title: "Director of Compliance",
     image: Tamara,
     text:
-      "It is a true pleasure to recommend Lisa Trevis as an exemplary account executive. Lisa could handle the most difficult situations with the same timely and thorough responses as she did in those myriad day-to-day requests for customized reports & provider outreach. I have found her to always be an advocate not only for her own organization, but also, for meeting the client needs tenaciously with an uncanny ability to balance those two tasks with ease. I had the good fortune to be with her at trade shows where she always been an exemplary model of professionalism mixed perfectly with a contagious positive attitude.",
+      "It is a true pleasure to recommend Lisa Trevis as an exemplary account executive. Lisa could handle the most difficult situations with the same timely and thorough responses as she did in those myriad day-to-day requests for customized reports & provider outreach. I have found her to always be an advocate not only for her own organization, but also, for meeting the client needs tenaciously with an uncanny ability to balance those two tasks with ease. She has always been an exemplary model of professionalism mixed perfectly with a contagious positive attitude.",
   },
   {
     id: 4,

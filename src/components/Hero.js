@@ -1,7 +1,7 @@
 import React from "react";
 import headShot from "../images/Headshot.png";
 import { useGlobalContext } from "../context";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaAngleRight } from "react-icons/fa";
 
 const Hero = () => {
   const { closeSubmenu } = useGlobalContext();
@@ -15,12 +15,24 @@ const Hero = () => {
           <img src={headShot} className="headshot-img" alt="head shot" />
         </article>
         <article className="hero-info">
-          <p>
-            Solution driven problem solver. Loves learning and teaching equally.
-            Strong work ethic with an honest and friendly communication style.
-            Creative and innovative team player. Flexible roup leader respectful
-            of deadlines, flexible, and
-          </p>
+          <div className="hero-tagline">
+            <FaAngleRight className="hero-icon" />
+            <h2>
+              Web <span>Developer</span>
+            </h2>
+          </div>
+          <div className="hero-tagline">
+            <FaAngleRight className="hero-icon" />
+            <h2>
+              Problem <span>Solver</span>
+            </h2>
+          </div>
+          <div className="hero-tagline">
+            <FaAngleRight className="hero-icon" />
+            <h2>
+              Creative <span>Designer</span>
+            </h2>
+          </div>
         </article>
       </div>
       <div className="footer">
