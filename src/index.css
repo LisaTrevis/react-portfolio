@@ -172,7 +172,7 @@ Navbar
   display: none;
 }
 .nav-links li {
-  border-right: 1px solid var(--clr-brand-dark);
+  border-right: 1px solid var(--clr-white);
 }
 .nav-links button:hover {
   cursor: pointer;
@@ -180,7 +180,7 @@ Navbar
   font-weight: bold;
 }
 .nav-links li:first-child {
-  border-left: 1px solid var(--clr-brand-dark);
+  border-left: 1px solid var(--clr-white);
 }
 
 /* nav media query */
