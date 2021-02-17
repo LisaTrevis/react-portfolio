@@ -246,9 +246,9 @@ export const jobs = [
     duties: [
       "Planned and managed database content transition to new platforms / applications with multiple technical and non-technical teams.",
       "Designed internal application using Figma. Modified externally sourced content to match internal content using HTML & CSS.",
-      "Created Python scripts which scraped websites and modified data to match required internal format.",
-      "Trained non-technical attorney users on a suite of new applications (Litmos, Panopto, SalesForce, SmartSheet, Contentful, and Intercom). Created internal documentation and user guides. Provided friendly ongoing IT support.",
-      "Managed content pipeline from uploads through publication to website.",
+      "Created website-scraping Python scripts with Beautiful Soup that automated a formerly time-consuming manual process. ",
+      "Trained non-technical attorney users on a suite of new applications (Litmos, Panopto, SalesForce, SmartSheet, Contentful, and Intercom). Created detailed internal documentation and user guides. Provided friendly and timely IT support.",
+      "Managed content pipeline for publication to website.",
     ],
   },
   {
@@ -258,8 +258,8 @@ export const jobs = [
     dates: "April 2017 - Sept 2018",
     duties: [
       "Taught Front End Web Development to students new to programming via a 16 week in-person course.",
-      "Topics covered included HTML5, CSS3, JavaScript, jQuery, Bootstrap, APIs, JSON, AJAX, and frameworks like VUE, React, and Angular.",
-      "My cohorts consistently had the highest graduation rate of any instructor there.",
+      "Topics covered included HTML5, CSS3, JavaScript, jQuery, Bootstrap, APIs, JSON, AJAX, and framework basics (Vue, React, and Angular).",
+      "My cohorts consistently had the highest student retention and graduation rates.",
     ],
   },
   {
@@ -270,7 +270,7 @@ export const jobs = [
     duties: [
       "Managed and grew revenue on multi-million dollar national accounts.",
       "Increased revenue streams by up-selling and cross-selling products and market segments.",
-      "Managed implementation of new Clients and ongoing relationships between internal teams and Client teams for all technical, financial, and service issues.",
+      "Managed implementation of new Clients and relationships between internal teams and Client teams for all technical, financial, and service issues.",
     ],
   },
   {
