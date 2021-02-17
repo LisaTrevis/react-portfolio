@@ -26,19 +26,18 @@ const Daisy = () => {
           Oakland Animal Services
         </a>{" "}
         in June of 2020. I had gone there to look at a pittie named Sheba, but
-        she was a bit too energetic for my other dog, Nessa. I was on my way out
-        when one of the shelter volunteers asked if I would consider fostering a
-        different pittie who wasn't doing well in the shelter environment and
-        wasn't even yet technically available for adoption. She was a stray off
-        of the street so they had no background info on her and couldn't tell me
-        much about her other than she was terrified and would go into "pancake"
-        position when taken out of her kennel.
+        she was a bit too energetic for my other dog, Nessa. One of the shelter
+        volunteers asked if I would consider fostering a different pittie who
+        wasn't doing well in the shelter environment. She was a stray off of the
+        street so they had no background info and couldn't tell me much about
+        her other than she was terrified and would go into "pancake" position
+        when taken out of her kennel.
       </p>
       <p>
         I'd never fostered before because I get attached to animals very
-        quickly. I even cry when pets I know only through social media pass over
-        the rainbow bridge, despite never having met them in real life. But I'm
-        a sucker for an underdog, so I agreed.
+        quickly; I even cry when pets I know only through social media pass over
+        the rainbow bridge despite never having met them in real life. But I'm a
+        sucker for an underdog, so I agreed.
       </p>
       <p>
         Well, five minutes into the car ride home, I looked into the back seat,
