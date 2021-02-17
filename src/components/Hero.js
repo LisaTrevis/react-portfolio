@@ -1,5 +1,5 @@
 import React from "react";
-import headShot from "../images/Headshot.png";
+import PixelMe from "../images/Pixel_Me.png";
 import { useGlobalContext } from "../context";
 import { FaInstagram, FaTwitter, FaAngleRight } from "react-icons/fa";
 
@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="section hero" onMouseOver={closeSubmenu}>
       <div className="hero-center">
         <article className="hero-image">
-          <img src={headShot} className="headshot-img" alt="head shot" />
+          <img src={PixelMe} className="headshot-img" alt="head shot" />
         </article>
         <article className="hero-info">
           <div className="hero-tagline">
