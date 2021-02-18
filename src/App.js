@@ -49,7 +49,7 @@ function App() {
               <Work />
             </div>
           </Route>
-          <Route path="/recs">
+          <Route path="/reviews">
             <div className="recs-page">
               <Recs />
             </div>

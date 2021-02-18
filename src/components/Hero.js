@@ -27,7 +27,8 @@ const Hero = () => {
         </article>
       </div>
       <div className="footer">
-        <p>Copyright &#169; 2021 Lisa Trevis. All rights reserved.</p>
+        <p>Copyright &#169; 2021 Lisa Trevis.</p>
+        <p>All rights reserved.</p>
         <div className="pixel">
           <p>Logo pixel art by Glenn Brooks</p>
           <a href="https://www.instagram.com/terderrer">

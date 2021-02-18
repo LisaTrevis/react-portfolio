@@ -20,13 +20,13 @@ const Recs = () => {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 8000);
+    }, 10000);
     return () => clearInterval(slider);
   }, [index]);
   return (
     <section className="section" onMouseOver={closeSubmenu}>
       <div className="section-name">
-        <h2>Recommendations</h2>
+        <h2>Reviews</h2>
       </div>
       <div className="recs-center">
         {people.map((person, personIndex) => {

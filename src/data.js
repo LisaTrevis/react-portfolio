@@ -31,7 +31,7 @@ export const sublinks = [
       { label: "Skills", icon: <FaCode />, url: "/skills" },
       { label: "Education", icon: <FaGraduationCap />, url: "/education" },
       { label: "Work", icon: <FaBriefcase />, url: "/Work" },
-      { label: "Recs", icon: <FaUserFriends />, url: "/recs" },
+      { label: "Reviews", icon: <FaUserFriends />, url: "/reviews" },
     ],
   },
   {
@@ -270,7 +270,7 @@ export const jobs = [
     duties: [
       "Managed and grew revenue on multi-million dollar national accounts.",
       "Increased revenue streams by up-selling and cross-selling products and market segments.",
-      "Managed implementation of new Clients and relationships between internal teams and Client teams for all technical, financial, and service issues.",
+      "Managed implementation of new clients and relationships between internal teams and client teams for all technical, financial, and service issues.",
     ],
   },
   {
@@ -281,7 +281,7 @@ export const jobs = [
     duties: [
       "Negotiated multi-million dollar contracts from initial contact to final signature.",
       "Exceeded double digit revenue goals every year.",
-      "Managed all aspects of the Client Accounts including financial, technical, and client relations.",
+      "Managed all aspects of the client accounts including financial, technical, and client relations.",
       "Served as SalesForce Administrator.",
     ],
   },
