@@ -37,14 +37,10 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
-  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-image: url("./images/pastel_background_long.jpg");
   background-size: cover;
-  /* background-repeat: no-repeat; */
   color: var(--clr-dark-text);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -347,6 +343,31 @@ Hero
   .hero-tagline h2 {
     font-size: 2.5rem;
     line-height: 1.75;
+  }
+}
+
+/*
+=====
+Error
+=====
+*/
+
+.error-page {
+  text-align: center;
+}
+.error-page h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/* Error page media queries */
+@media screen and (min-width: 576px) {
+  .error-page h1 {
+    font-size: 6rem;
+    margin: 3rem 0;
+  }
+  .error-page .btn {
+    font-size: 2rem;
   }
 }
 
