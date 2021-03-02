@@ -37,9 +37,9 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-image: url("./images/pastel_background_long.jpg");
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-image: url('./images/pastel_background_long.jpg');
   background-size: cover;
   color: var(--clr-dark-text);
   line-height: 1.5;
@@ -253,7 +253,7 @@ Hero
   height: 100% !important;
 }
 .headshot-img {
-  max-width: 90%;
+  max-width: 80%;
 }
 .hero-info {
   width: 90vw;
@@ -263,16 +263,17 @@ Hero
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 1rem;
 }
 .hero-tagline {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   align-items: center;
 }
 .hero-icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  transform: rotate(-90deg);
 }
 .hero-tagline h2 {
   text-align: left;
@@ -280,6 +281,7 @@ Hero
   display: inline;
   color: var(--clr-dark-text);
   margin-bottom: 0;
+  font-size: 1rem;
 }
 .hero-tagline span {
   display: block;
@@ -329,7 +331,7 @@ Hero
 }
 @media screen and (min-width: 900px) {
   .hero-center {
-    min-height: 65vh;
+    height: 65vh;
     max-width: 100vw;
     display: grid;
     align-items: center;
@@ -341,7 +343,7 @@ Hero
     align-items: center;
   }
   .hero-tagline h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.75;
   }
 }
@@ -464,7 +466,7 @@ Submenu
   border-radius: var(--radius);
 }
 .submenu::before {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 0;
@@ -944,8 +946,6 @@ Projects
   color: var(--clr-brand-dark);
 }
 .projects-center {
-  margin: 0;
-  width: 90vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -983,6 +983,11 @@ Projects
   }
   .proj-card-footer {
     font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1343px) {
+  .project-card {
+    margin: 1.5rem;
   }
 }
 
@@ -1123,7 +1128,7 @@ Daisy
 /* background image resize */
 @media screen and (min-width: 942px) {
   body {
-    background-image: url("./images/pastel_background_wide.jpg");
+    background-image: url('./images/pastel_background_wide.jpg');
     height: 100vh;
   }
 }
