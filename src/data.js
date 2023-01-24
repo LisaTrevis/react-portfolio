@@ -235,28 +235,38 @@ export const courses = [
 export const jobs = [
   {
     id: 1,
-    title: 'UI Engineer',
-    company: 'Apple/Advantis Global',
-    dates: 'Sept 2021 - present',
+    title: 'Frontend Developer',
+    company: 'Savas Labs',
+    dates: 'Dec 2021 - present',
     duties: [
-      'Successfully navigated enterprise level environment and systems.',
-      'Architected Caffe Macs web application utilizing designs from UX team & functionality parameters from business team.',
+      'Built custom digital tools and websites for clients within tight deadlines and design constraints with a variety of tech stacks.',
+      'Performed accessibility and performance audits for potential and current client websites.',
+      'Provided code reviews for team member PRs.',
     ],
   },
   {
     id: 2,
-    title: 'Web Production Developer',
-    company: 'Apple/MindSource',
-    dates: 'May 2021 - Sept 2021',
+    title: 'UI Engineer',
+    company: 'Apple/Advantis Global',
+    dates: 'Sept 2021 - Dec 2021',
     duties: [
-      'Collaborated with Project Managers and design team to ensure clean comps and specs.',
-      'Translated Sketch and Photoshop comps into code for both apple.com and Apple Store App content.',
-      'Provided code reviews for other team member PRs.',
-      'Created internal documentation for proprietary team markup language.',
+      'Successfully navigated enterprise level environments and systems.',
+      'Contributed to the architecture and build of an internal web application incorporating designs from the UX team & functionality parameters from the business team',
     ],
   },
   {
     id: 3,
+    title: 'Web Production Developer',
+    company: 'Apple/MindSource',
+    dates: 'May 2021 - Sept 2021',
+    duties: [
+      'Contributed to both apple.com and the Apple Store App digital campaigns under strict launch deadlines.',
+      'Provided code reviews for team member PRs.',
+      'Created internal documentation for proprietary team markup language.',
+    ],
+  },
+  {
+    id: 4,
     title: 'Programmer Analyst',
     company: 'CEB/Apex Systems',
     dates: 'June 2018 - Dec 2020',
@@ -269,7 +279,7 @@ export const jobs = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Instructor',
     company: 'Codify Academy',
     dates: 'April 2017 - Sept 2018',
@@ -280,7 +290,7 @@ export const jobs = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Manager, National Accounts',
     company: 'MultiPlan, Inc.',
     dates: 'Sept 2011 - Sept 2014',
@@ -291,7 +301,7 @@ export const jobs = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: 'National Sales Manager',
     company: 'IHP, Inc.',
     dates: 'Oct 2008 - Aug 2011',
