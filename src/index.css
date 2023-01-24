@@ -628,6 +628,9 @@ Skills
 .card h4 {
   line-height: 1.25;
 }
+.card p {
+  text-align: center;
+}
 .card .skill-btn {
   background: var(--clr-brand-dark);
   border-color: var(--clr-brand-dark);

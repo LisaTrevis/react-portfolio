@@ -28,7 +28,7 @@ export const sublinks = [
   {
     page: 'About',
     links: [
-      // { label: 'Skills', icon: <FaCode />, url: '/skills' },
+      { label: 'Skills', icon: <FaCode />, url: '/skills' },
       { label: 'Education', icon: <FaGraduationCap />, url: '/education' },
       { label: 'Work', icon: <FaBriefcase />, url: '/Work' },
       { label: 'Reviews', icon: <FaUserFriends />, url: '/reviews' },
@@ -313,19 +313,18 @@ export const skillList = [
     id: 1,
     type: 'Primary',
     skillset:
-      'HTML5, CSS3, JavaScript, React, React Hooks, SASS, CI/CD, Responsive Design, Semantic Markup, Git, GitHub, APIs, Babel, Webpack, NPM, UI / UX, Figma, Jira, Confluence, ES6, Canva, Contentful, Agile SDLC Methodologies (Kanban & Scrum).',
+      'HTML5 | CSS3 | JavaScript | ES6 | React | SASS | WordPress | Craft | Twig | Responsive Design',
   },
   {
     id: 2,
     type: 'Secondary',
     skillset:
-      'Python, Vue, Flutter / Dart, Redux, Gulp, Markdown, Bootstrap, jQuery, SEO, AJAX, PHP, Accessability, MySQL / SQL, Prototyping, Sketch, Wireframing, Testing and Debugging with Jest, Access, Excel, Word, Outlook, Power Point.',
+      'Vue | React Native | Redux | Accessability | Docker/Docksal | Pantheon | Heroku',
   },
   {
     id: 3,
     type: 'Tertiary',
-    skillset:
-      'AngularJS, Swift, D3, Django, Docker, Adobe Photoshop, Adobe Dreamweaver, Adobe InDesign, Adobe Illustrator, Wordpress, Apache, MAMP, QuickBooks.',
+    skillset: 'Python | AngularJS | Flutter / Dart | Swift | Django',
   },
 ]
 

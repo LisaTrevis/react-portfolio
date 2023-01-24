@@ -6,7 +6,7 @@ import Hero from './components/Hero'
 import About from './pages/About'
 import Sidebar from './components/Sidebar'
 import Submenu from './components/Submenu'
-// import Skills from "./pages/Skills";
+import Skills from './pages/Skills'
 import Education from './pages/Education'
 import Work from './pages/Work'
 import Recs from './pages/Recs'
@@ -32,6 +32,11 @@ function App() {
           <Route path='/about'>
             <div className='about-page'>
               <About />
+            </div>
+          </Route>
+          <Route path='/skills'>
+            <div className='skills-page'>
+              <Skills />
             </div>
           </Route>
           <Route path='/education'>
