@@ -28,7 +28,7 @@ export const sublinks = [
   {
     page: 'About',
     links: [
-      { label: 'Skills', icon: <FaCode />, url: '/skills' },
+      // { label: 'Skills', icon: <FaCode />, url: '/skills' },
       { label: 'Education', icon: <FaGraduationCap />, url: '/education' },
       { label: 'Work', icon: <FaBriefcase />, url: '/Work' },
       { label: 'Reviews', icon: <FaUserFriends />, url: '/reviews' },
