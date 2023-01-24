@@ -1,38 +1,38 @@
-import React from "react";
-import { useGlobalContext } from "../context";
-import Headshot from "../images/Headshot.jpg";
+import React from 'react'
+import { useGlobalContext } from '../context'
+import Headshot from '../images/Headshot.jpg'
 
 const About = () => {
-  const { closeSubmenu } = useGlobalContext();
+  const { closeSubmenu } = useGlobalContext()
   return (
-    <section className="section about" onMouseOver={closeSubmenu}>
-      <div className="section-title">
+    <section className='section about' onMouseOver={closeSubmenu}>
+      <div className='section-title'>
         <h2>About Me</h2>
       </div>
-      <div className="me-info">
-        <div className="img-container">
-          <img src={Headshot} alt="headshot" />
+      <div className='me-info'>
+        <div className='img-container'>
+          <img src={Headshot} alt='headshot' />
         </div>
-        <div className="about-info">
+        <div className='about-info'>
           <p>
-            I'm a self-taught React developer with a background in sales,
-            marketing, and account management. The resulting blend of hard and
-            soft skills drives my focus on the user experience and facilitates
-            effective interaction with a variety of teams from stakeholders and
+            I'm a self-taught JS/React developer with a background in sales,
+            marketing, and account management. This blend of hard and soft
+            skills drives my focus on the user experience. It also facilitates
+            effective interaction with a variety of teams, from stakeholders and
             managers to other developers and UI/UX designers. My artistic eye
-            and technical know-how combine to create delightful interfaces
-            backed by clean, reusable code.
+            and technical know-how combine to create delightful pixel-perfect
+            interfaces backed by clean, scalable, and reusable code.
           </p>
           <p>
             As a child I loved to color, craft, play dress up - really any
-            activity where I was creating something fun and beautiful. However,
-            I was encouraged to focus more on my natural abilities in science,
-            mathematics and spatial visualization. Web development merges these
-            very different skill sets in an extremely satisfying way. Because
-            the tech industry is constantly evolving, there are always new
-            challenges to tackle and things to learn. I stay current through
-            continued coursework and professional development. I also love to
-            share my knowledge by mentoring others.
+            activity where I was creating something fun and beautiful. Web
+            development merges this artistic skill set with my natural
+            inclination towards science, mathematics and spatial visualization
+            in an extremely satisfying way. And because the tech industry is
+            constantly evolving, there are always new challenges to tackle and
+            things to learn. I stay current through continued coursework and
+            professional development, and love to share my knowledge by
+            mentoring others.
           </p>
           <p>
             When I set my mind on something, I accomplish it. My tried and true
@@ -42,15 +42,10 @@ const About = () => {
             our biggest competitor, or making a career pivot by learning an
             entirely new industry, I'm not afraid of a challenge.
           </p>
-          <p>
-            I'm currently seeking a position where I can directly contribute to
-            the creation and improvement of both internal and external digital
-            tools and interfaces.
-          </p>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

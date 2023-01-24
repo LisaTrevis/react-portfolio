@@ -15,7 +15,7 @@ const Hero = () => {
         <article className='hero-info'>
           <div className='hero-tagline'>
             <GiFallingStar className='hero-icon' />
-            <h2>Software Engineer</h2>
+            <h2>Web Developer</h2>
           </div>
           <div className='hero-tagline'>
             <GiFallingStar className='hero-icon' />
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
           <div className='hero-tagline'>
             <GiFallingStar className='hero-icon' />
-            <h2>UI/UX Developer</h2>
+            <h2>UI/UX Engineer</h2>
           </div>
         </article>
       </div>
