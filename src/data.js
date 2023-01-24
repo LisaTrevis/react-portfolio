@@ -68,12 +68,6 @@ export const sublinks = [
         target: '_blank',
       },
       {
-        label: 'Dog Walker',
-        icon: <FaFolderOpen />,
-        url: 'https://lisa-trevis-react-dog-walker-reviews.netlify.app',
-        target: '_blank',
-      },
-      {
         label: 'Gas Pump',
         icon: <FaFolderOpen />,
         url: 'https://lisa-trevis-react-gas-pump.netlify.app',
